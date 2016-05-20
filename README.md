@@ -20,7 +20,7 @@ sites:
             fcgi_index: "index.php"
           - fcgi_server: "php"
             fcgi_pattern: "^/api"
-            fcgi_script: "/opt/web/www/default/api%s"
+            fcgi_script: "/opt/web/www/default%s"
             fcgi_index: "index.php"
     - site_host: "www.default.com"
       site_ip: "www.default.com"
@@ -37,7 +37,7 @@ sites:
             fcgi_index: "index.php"
           - fcgi_server: "php"
             fcgi_pattern: "^/api"
-            fcgi_script: "/opt/web/www/default/api%s"
+            fcgi_script: "/opt/web/www/default%s"
             fcgi_index: "index.php"
 fcgi:
     php:
